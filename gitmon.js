@@ -9,8 +9,8 @@ async function init() {
   var p=exec(cmd,args)
   while(true) {
     var str=await execPromise('git pull')
-    console.log({str})
     if(!str.match(/Already up to/)) {
+      console.log({str})
       console.log('Need to update, killing...')
       p.kill()
       console.log('Retarting...')

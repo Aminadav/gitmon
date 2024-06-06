@@ -1,6 +1,6 @@
 {
   "name": "gitmon",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "description": "A CLI tool to monitor a Git repository for new commits, automatically pull the latest changes, and reload the application.",
   "bin":{
     "gitmon": "./gitmon.js"
