@@ -1,9 +1,18 @@
 {
   "name": "gitmon",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "A CLI tool to monitor a Git repository for new commits, automatically pull the latest changes, and reload the application.",
   "bin":{
     "gitmon": "./gitmon.js"
+  },
+  "contributors": [
+    {
+      "name": "Aminadav Glickshtein",
+      "email": "aminadav@gmail.com"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/aminadav/gitmon"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

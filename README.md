@@ -1,5 +1,7 @@
 # GitMon
 
+[![npm version](https://badge.fury.io/js/gitmon.svg)](https://badge.fury.io/js/gitmon)
+
 GitMon is a CLI tool designed to monitor a Git repository for new commits, automatically pull the latest changes, and reload the application. It's like "forever", "pm2", and "nodemon" in watching mode, but with the added capability of watching remotely.
 
 ## Features
